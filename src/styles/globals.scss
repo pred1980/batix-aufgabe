@@ -1,0 +1,21 @@
+h2 {
+  color: $primary-color;
+}
+
+.btn-custom {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: #8FC01A;
+    --bs-btn-border-color: #8FC01A;
+  
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #8FC01A;
+  
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #8FC01A;
+
+    &:hover {
+      border: 2px solid $bx-white;
+      transition: all 0.2s;
+    }
+  }
